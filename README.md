@@ -111,3 +111,11 @@ Start Administrator PowerShell & Go to the directory
 
 KaaS - Kubernetes-as-a-Service ( for example: Azure Kubernetes Service, Amazon EKS, Google GKE,  )
 DNS - Domain Name System
+
+---
+
+### KIND
+
+choco install kind
+
+kind create cluster --name kalenski-cluster
