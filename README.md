@@ -32,14 +32,7 @@ az storage account show \
   --name f6187ceb2bd3c4fa49b787e \
   --resource-group MC_rg-ecad-ig-dev-shmplm-we_aks01-ig-dev-we4712_westeurope
 
-
 ---
-
-### HELM
-
-helm template .
-
-  --- 
 
 ### Minikube
 
@@ -99,11 +92,6 @@ Start Administrator PowerShell & Go to the directory
 >
 > vagrant destroy --debug
 
-  ---
-
-  ### KIND
-
-  choco install kind
 
   ---
 
@@ -111,3 +99,7 @@ Start Administrator PowerShell & Go to the directory
 
 KaaS - Kubernetes-as-a-Service ( for example: Azure Kubernetes Service, Amazon EKS, Google GKE,  )
 DNS - Domain Name System
+
+---
+
+
