@@ -31,3 +31,77 @@ https://$STORAGE_ACCOUNT.file.core.windows.net/$OLD_SHARE?$SAS_TOKEN
 az storage account show \
   --name f6187ceb2bd3c4fa49b787e \
   --resource-group MC_rg-ecad-ig-dev-shmplm-we_aks01-ig-dev-we4712_westeurope
+
+
+  --- 
+
+### Minikube
+
+minikube version
+choco upgrade minikube -y
+minikube delete
+minikube start
+
+---
+
+Start Administrator PowerShell & Go to the directory
+
+---
+
+**Check vagrant installation and version**
+> vagrant --version
+
+---
+
+**Update vagrant version**
+> choco upgrade vagrant
+
+---
+
+**Инициализиране на Vagrantfile**
+> vagrant init
+>
+> vagrant init hashicorp/bionic64
+
+---
+
+**Creating VM in Hyper-V**
+> vagrant up
+>
+> vagrant up --debug
+>
+> vagrant up --provider=hyperv
+>
+> vagrant up --provider=hyperv --debug
+
+***Options:***
+> ```--provider=hyperv```
+>
+> ```--provider=virtualbox```
+
+---
+
+**Връзка с машината чрез ssh през Terminal**
+> vagrant ssh
+>
+> vagrant ssh --debug
+
+---
+
+**Delete the Virtual Machine**
+> vagrant destroy
+>
+> vagrant destroy --debug
+
+  ---
+
+  ### KIND
+
+  choco install kind
+
+  ---
+
+  Abreviatura
+
+KaaS - Kubernetes-as-a-Service ( for example: Azure Kubernetes Service, Amazon EKS, Google GKE,  )
+DNS - Domain Name System
