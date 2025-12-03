@@ -33,6 +33,12 @@ az storage account show \
   --resource-group MC_rg-ecad-ig-dev-shmplm-we_aks01-ig-dev-we4712_westeurope
 
 
+---
+
+### HELM
+
+helm template .
+
   --- 
 
 ### Minikube
